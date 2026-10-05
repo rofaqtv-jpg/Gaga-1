@@ -19,7 +19,7 @@ jobs:
           java-version: '17'
 
       - name: Android SDK
-        uses: android-actions/setup-android@v4
+        uses: android-actions/setup-android@v3
 
       - name: NDK
         uses: nttld/setup-ndk@v1
