@@ -154,4 +154,4 @@ extern "C" JNIEXPORT jfloat JNICALL Java_com_turrinistudio_gtav_MainActivity_nat
 extern "C" JNIEXPORT jfloat JNICALL Java_com_turrinistudio_gtav_MainActivity_nativeYaw(JNIEnv*,jobject){return g.yaw;}
 extern "C" JNIEXPORT jfloat JNICALL Java_com_turrinistudio_gtav_MainActivity_nativePitch(JNIEnv*,jobject){return g.pitch;}
 extern "C" JNIEXPORT jfloat JNICALL Java_com_turrinistudio_gtav_MainActivity_nativeRoll(JNIEnv*,jobject){return g.roll;}
-extern "C" JNIEXPORT jfloat JNICALL Java_com_turrinistudio_gtav.MainActivity_nativeSpeed(JNIEnv*,jobject){return g.speed;}
+extern "C" JNIEXPORT jfloat JNICALL Java_com_turrinistudio_gtav_MainActivity_nativeSpeed(JNIEnv*,jobject){return g.speed;}
