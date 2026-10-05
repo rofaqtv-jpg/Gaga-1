@@ -16,7 +16,13 @@ public class MainActivity extends Activity {
 
     public native void nativeInit();
     public native void nativeUpdate(float dt, boolean gas, boolean brake, boolean left, boolean right);
-    public native float nativeX(), nativeY(), nativeZ(), nativeYaw(), nativePitch(), nativeRoll(), nativeSpeed();
+    public native float nativeX();
+    public native float nativeY();
+    public native float nativeZ();
+    public native float nativeYaw();
+    public native float nativePitch();
+    public native float nativeRoll();
+    public native float nativeSpeed();
 
     volatile boolean gas, brake, left, right;
 
@@ -202,4 +208,4 @@ public class MainActivity extends Activity {
             float[]m=identity();m[0]=rx;m[1]=ux;m[2]=-fx;m[4]=ry;m[5]=uy;m[6]=-fy;m[8]=rz;m[9]=uz;m[10]=-fz;m[12]=-(rx*ex+ry*ey+rz*ez);m[13]=-(ux*ex+uy*ey+uz*ez);m[14]=fx*ex+fy*ey+fz*ez;return m;
         }
     }
-  }
+}
